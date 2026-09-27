@@ -2,7 +2,7 @@
 
 This repository contains the code, images, and anonymized samples accompanying research into Appdome's Android application dependencies: initialization, Java string restoration, native-method registration, and packed native exports.
 
-The full investigation will be a separate blog article. I'll add its link here when it's published.
+[The full investigation is present at my blog.](https://lovyloyv.github.io/posts/appdome-emulation/)
 
 ## Repository contents
 
