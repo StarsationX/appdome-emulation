@@ -1,0 +1,5 @@
+# Asset loading and lookup
+
+This module connects logical Appdome asset names to their contents. [assets.cpp](assets.cpp) parses the bootstrap configuration map, hashes a requested name together with `BLOBS_MAGIC`, and uses the uppercase SHA-256 result to look up its stored value. That value can be an asset identifier or inline configuration data: `get_from_name` loads and decrypts a referenced blob, while `get_as_key` returns the map value directly. The initial configuration is loaded by its known identifier before name lookup is available.
+
+[apk_assets.cpp](apk_assets.cpp) supplies the file-access layer by locating and parsing `base.apk` directly, following the approach observed in Appdome. The replacement reads the ZIP central directory, finds the requested `assets/` entry, handles stored or deflated contents, and checks the extracted size and CRC. It passes the resulting encrypted bytes to the [crypt module](../crypt/README.md); the requesting component interprets the decrypted payload.

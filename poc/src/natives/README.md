@@ -1,0 +1,5 @@
+# JNI mappings and callbacks
+
+[natives.cpp](natives.cpp) reads the native-registration data and retained Java name mappings, associates known method names with replacement handlers, and builds the `JNINativeMethod` entries registered by [entry.cpp](../entry.cpp). This mapping-dependent stage follows the separate registration of the fixed `lkjhgf()V` initialization method. [callbacks.cpp](callbacks.cpp) implements the handlers, including configuration lookup, string-indexer initialization, and the callback that starts export-restoration setup.
+
+The string-database callback derives a package prefix from a caller class in the Java stack trace, combines it with the constant `_JavaStringIndexerStringDb_` and the application package, then loads the corresponding asset and returns its bytes to Java. The constant distinguishes this asset category and likely helps avoid collisions between logical names. Java handles entry selection and string caching. I kept other callbacks minimal where the application didn't need additional behavior during testing.

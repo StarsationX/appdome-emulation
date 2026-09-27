@@ -1,0 +1,87 @@
+{
+  "scope": "Identifier-redacted research samples. Raw information dump excluded. Extracted classes are byte-identical to members of classes.zip.",
+  "files": [
+    {
+      "file": "appdome_classes_obf_mapping.txt",
+      "sha256": "910833a3bbd64bd43df534d97bbffe48c32d63b96d3b1d1caac81e56271e664b",
+      "bytes": 8227,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "arm64-v8a.json",
+      "sha256": "01815a80944982298fd5735e545c5a28bd88e283ed93d54c4eb39eb31aa29eda",
+      "bytes": 5389,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "classes.zip",
+      "sha256": "38c9e9c55b6b1f94c0e5d2712963f56a9fcb27da4c9aa726780c3754824e95da",
+      "bytes": 58042,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "decrypted_blobs_sample.zip",
+      "sha256": "46147931dd8553b33f11e4c705a7c251bfebb811b2beb903b2fc0cce068f5327",
+      "bytes": 248748,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "hashmap.json",
+      "sha256": "8d031a4bf339d03949c0d65c95e4265316744ad8b9fb6f4facefdc5a671762c5",
+      "bytes": 6700,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "native_methods_to_register_.json",
+      "sha256": "0ad50390e968394e7fbf9603731cd9b43d78b3913e8f77a91b2528292cb8c6ac",
+      "bytes": 5221,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "recover_names.py",
+      "sha256": "fa64f922737b61953595817ee7918aa6b0a4943d91a4c4f309f830a9ce84090c",
+      "bytes": 8363,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "string_dump.json",
+      "sha256": "1554494c0014da03fb51be30a42158875ca122741342a1c72009c7e3927f9c8d",
+      "bytes": 47576,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "tester.py",
+      "sha256": "7a27e9dd5c2df55042f3bbee1bbec2bc5cbe55d5cf890c06753186d36370ae96",
+      "bytes": 819,
+      "source": "identifier-redacted reference copy"
+    },
+    {
+      "file": "recovered-classes/runtime/Strings/StringIndexer.smali",
+      "sha256": "c2daa19ab61949eaa12e919ec2af95665d63d04c5ba7df43ba2a47cac896a8d7",
+      "bytes": 12642,
+      "source_archive": "classes.zip",
+      "archive_member": "classes/runtime/Strings/StringIndexer.smali"
+    },
+    {
+      "file": "recovered-classes/runtime/loading/NativeBridge.smali",
+      "sha256": "fb609adbe6e0e72112ed5dccabdbce93f001795d323c2c8af98d91de204d36eb",
+      "bytes": 3721,
+      "source_archive": "classes.zip",
+      "archive_member": "classes/runtime/loading/NativeBridge.smali"
+    },
+    {
+      "file": "recovered-classes/qwerty/asdfgh/zxcvbn.smali",
+      "sha256": "79e009976734254b9c326666b1a43b9ac2096988d4ba7683810102f6b013b41d",
+      "bytes": 284,
+      "source_archive": "classes.zip",
+      "archive_member": "classes/qwerty/asdfgh/zxcvbn.smali"
+    },
+    {
+      "file": "recovered-classes/runtime/ADConfig/ADConfig.smali",
+      "sha256": "698e55d1cba9c7d3f6d7533ce897516cd3bc7181f635076845a687ba082706b7",
+      "bytes": 1831,
+      "source_archive": "classes.zip",
+      "archive_member": "classes/runtime/ADConfig/ADConfig.smali"
+    }
+  ]
+}

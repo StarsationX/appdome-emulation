@@ -1,0 +1,158 @@
+[
+  {
+    "method_name": "appRegisteredToEvent",
+    "method_smali_signature": "(Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007ef9c"
+  },
+  {
+    "method_name": "appUnRegisteredFromEvent",
+    "method_smali_signature": "(Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f034"
+  },
+  {
+    "method_name": "getApplicationIDAppdome",
+    "method_smali_signature": "()Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007ff68"
+  },
+  {
+    "method_name": "getBoolFromConfig",
+    "method_smali_signature": "(Ljava/lang/String;Z)Z",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f2a4"
+  },
+  {
+    "method_name": "getExternalEventID",
+    "method_smali_signature": "(Ljava/lang/String;)Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000219f70"
+  },
+  {
+    "method_name": "getFileFromConfigByUuid",
+    "method_smali_signature": "(Ljava/lang/String;)[B",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f528"
+  },
+  {
+    "method_name": "getIntFromConfig",
+    "method_smali_signature": "(Ljava/lang/String;I)I",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f31c"
+  },
+  {
+    "method_name": "getObfAppdomeMethod",
+    "method_smali_signature": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000023353c"
+  },
+  {
+    "method_name": "getRootCAsPEM",
+    "method_smali_signature": "()Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000020da30"
+  },
+  {
+    "method_name": "getStringArrayFromConfig",
+    "method_smali_signature": "(Ljava/lang/String;)[Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f390"
+  },
+  {
+    "method_name": "getStringFromConfig",
+    "method_smali_signature": "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007f204"
+  },
+  {
+    "method_name": "getStringIndexerDB",
+    "method_smali_signature": "()[B",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000235bf4"
+  },
+  {
+    "method_name": "handleEnforcement",
+    "method_smali_signature": "(Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000022ed9c"
+  },
+  {
+    "method_name": "isLowLevelLogDisabled",
+    "method_smali_signature": "()Z",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "00000000000cf854"
+  },
+  {
+    "method_name": "killForkUtilChildProcesses",
+    "method_smali_signature": "()V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "00000000001944d0"
+  },
+  {
+    "method_name": "markCrash",
+    "method_smali_signature": "()V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000232ff0"
+  },
+  {
+    "method_name": "nfLog",
+    "method_smali_signature": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;ZLjava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007ffcc"
+  },
+  {
+    "method_name": "onPausedCalled",
+    "method_smali_signature": "()V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000086d74"
+  },
+  {
+    "method_name": "onResumedCalled",
+    "method_smali_signature": "()V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000086d60"
+  },
+  {
+    "method_name": "putStringToPersistentDictionary",
+    "method_smali_signature": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000019d0dc"
+  },
+  {
+    "method_name": "runFirstActivityActions",
+    "method_smali_signature": "()V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007ef98"
+  },
+  {
+    "method_name": "savePersistentDictionary",
+    "method_smali_signature": "(Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000019cfe4"
+  },
+  {
+    "method_name": "sendDevEvent",
+    "method_smali_signature": "(Ljava/lang/String;[Ljava/lang/String;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000219aa0"
+  },
+  {
+    "method_name": "setApplication",
+    "method_smali_signature": "(Ljava/lang/Object;)V",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000007ef78"
+  },
+  {
+    "method_name": "stringIndexerNativeInitializer",
+    "method_smali_signature": "()Ljava/lang/String;",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "0000000000236e20"
+  },
+  {
+    "method_name": "supportsDevEvent",
+    "method_smali_signature": "(Ljava/lang/String;)Z",
+    "class_name": "runtime/loading/NativeBridge",
+    "method_pointer": "000000000021a070"
+  }
+]
